@@ -14,6 +14,12 @@ This event is created when user purchases a subscription with free trial period.
 
 Event is sent to analytics under `trial_started` name.
 
+### Trial Active
+
+This event is created whenever a free trial has not been canceled for at least 1 hour after the trial start date.
+
+Event is sent to analytics under `trial_active` name.
+
 ### Trial Converted
 
 This event is created after trial period is finished and user has been charged for the first time with regular subscription price.
