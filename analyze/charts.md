@@ -230,6 +230,16 @@ Yes, these are just new users of the app. By the way, you can filter them, using
 Pay attention that new users counted when they were recorded by Apphud SDK (not actual install date). In 99% of cases, these dates are nearly identical.
 {% endhint %}
 
+### Active Subscriptions
+
+Active Subscriptions chart shown as the number of the regular (unexpired) paid in-app subscriptions at the end of each selected period.
+
+**Cohorts:** No.
+
+You can segment by the renewal type to learn the trend of the renewal enabled / disabled subscriptions.
+
+<figure><img src="../.gitbook/assets/Active subscriptions (1).png" alt=""><figcaption></figcaption></figure>
+
 ## CONVERSIONS
 
 All charts in this group represented as funnels with particular steps (based on events).
