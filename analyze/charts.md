@@ -156,6 +156,20 @@ Both ARPU/ARPPU are calculated without refunds. Downgrades (partial refunds) dif
 ARPPU will be usually much higher than ARPU because only paying users included in cohorts (a smaller part of all users in the app).
 {% endhint %}
 
+### ARPAS
+
+ARPAS is the **Average Revenue Per Activated Subscription**.&#x20;
+
+It’s calculated as the average revenue from subscribers plus users, who have started a trial within the selected time period.
+
+**Cohorts:** Yes.
+
+You can choose whether to calculate ARPAS using Sales or Proceeds.
+
+<figure><img src="../.gitbook/assets/ARPAS.png" alt=""><figcaption></figcaption></figure>
+
+
+
 ### Cumulative LTV
 
 <figure><img src="../.gitbook/assets/Снимок экрана 2022-09-28 в 17.59.52.png" alt=""><figcaption></figcaption></figure>
