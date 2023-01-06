@@ -129,6 +129,10 @@ Regardless of what of two methods you use you can view attribution data from App
 
 ## Troubleshooting
 
+### I enter a valid public key but still get an error
+
+If you believe you did everything right, but still experience an issue with pasting public key to Apple Search Ads setting, try opening this ASA account in incognito mode of your browser. This is a known issue with cache on Apple side.
+
 ### I see `Undetermined [0123456789]` attribution in Charts
 
 Make sure your credentials are accurately set up as per [documentation above](apple-search-ads.md#how-does-integration-work).
