@@ -54,7 +54,7 @@ Besides events Apphud also sends user properties to analytics:
 
 | Property                                                                             | Description                                                                                                  |
 | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
-| `[Apphud] status-<group_name>`, where `<group_name>` – name of subscription group    | Status of subscription. Possible values: `none`, `trial`, `intro`, `regular`, `promo`, `refunded`, `expired` |
+| `[Apphud] status-<group_name>`, where `<group_name>` – name of subscription group    | Status of subscription. Possible values: `none`, `trial`, `intro`, `regular`, `grace`, `promo`, `refunded`, `expired` |
 | `[Apphud] autorenew-<group_name>`, where `<group_name>` – name of subscription group | Whether autorenew option is turned on                                                                        |
 | `[Apphud] total_spent`                                                               | Total amount of money that user has been charged, in USD                                                     |
 | `[Apphud] paying`                                                                    | Whether user is paying or not                                                                                |
@@ -70,6 +70,7 @@ All values are applied for given subscription group:
 * `trial`: user has a subscription that is currently in trial period;
 * `intro`: user has a subscription that is currently in introductory offer;
 * `regular`: user has a subscription with regular price;
+* `grace`: user has a subscription that is currently in grace period;
 * `promo`: user has a subscription that is currently in promotional offer;
 * `refunded`: user has refunded a subscription;
 * `expired`: subscription lapsed.
